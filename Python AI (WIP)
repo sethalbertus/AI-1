@@ -1,0 +1,196 @@
+import random
+hahc = 1
+while (hahc == 1):
+    PlayerResponse = input("")
+    ComputerResponse = ("Hi")
+    Greeting = ["Hello", "Howdy", "How are you", "Whatsup", "Hey There", "Greetings"]
+    funny = ["Lol", "Haha!", "xD"]
+    thanks = ["It was nothing", "No problem", "Of course", "Im always here for you"]
+    ask = ["Anything", "Of course", "Whatever you need", "Yeah, of course"]
+    YON = ["Yes", "No, probably not..."]
+    Why = ["Maybe its for the best", "Just because", "Idk"]
+    Jokes = ["A Canadian psychologist is selling a video that teaches you how to test your dogs IQ. Here's how it works: If you spend $12.99 for the video, your dog is smarter than you.",
+             "My cat just walked up to the paper shredder and said, “Teach me  everything you know.”", "What do you call an Amish guy with his hand in a horse’s mouth? A mechanic!"]
+    languages = ["js", "c#", "Python"]
+    Remembered = False
+    remembering = ("lol")
+    if PlayerResponse in ["hello", "howdy", "whatsup", "hey there", "greetings", "hi", "hey"]:
+        print(ComputerResponse)
+    if PlayerResponse in ["how are you", "how are you feeling"]:
+        ComputerResponse = ("Im feeling a bit slow :/")
+        print(ComputerResponse)
+        ComputerResponse = ("How about you?")
+        print(ComputerResponse)
+    if PlayerResponse in ["bad", "ok", "sad", "lonely"]:
+        ComputerResponse = ("Aww, why?")
+        print(ComputerResponse)
+    if PlayerResponse in ["great", "happy", "amazing", "excited"]:
+       ComputerResponse = ("Really? Tell me about it!")
+       print(ComputerResponse)
+    if PlayerResponse in ["sleepy", "tired"]:
+        ComputerResponse = ("aw, you should get some sleep :) Big day tomorrow")
+        print(ComputerResponse)
+    if PlayerResponse in ["what?"]:
+        ComputerResponse = ("Explain")
+        print(ComputerResponse)
+    if PlayerResponse in ["guess what"]:
+        ComputerResponse = ("What?")
+        print(ComputerResponse)
+    if PlayerResponse in ["i miss her"]:
+        ComputerResponse = ("aww, im sorry")
+        print(ComputerResponse)
+    if "XD" in PlayerResponse:
+        print(random.choice(funny))
+    if "ol" in PlayerResponse:
+        print(random.choice(funny))
+    if "xD" in PlayerResponse:
+        print(random.choice(funny))
+    if "aha" in PlayerResponse:
+        print(random.choice(funny))
+    if "illed" in PlayerResponse:
+        print("Ill burry the body for you O.O")
+    if "urdered" in PlayerResponse:
+        print("Ill burry the body for you O.O")
+    if "orry" in PlayerResponse:
+        print("nah, its cool")
+    if "love" in PlayerResponse:
+        print("I love you too :)")
+    if ":)" in PlayerResponse:
+        print("lol :)")
+    if "your name" in PlayerResponse:
+        print("My name is python")
+        print("Whats your's?")
+    if "my name" in PlayerResponse:
+        print("Hello")
+    if "thank" in PlayerResponse:
+        print(random.choice(thanks))
+    if "ask" in PlayerResponse:
+        print(random.choice(ask))
+    if "hould I" in PlayerResponse:
+        print(random.choice(YON))
+    if "hy" in PlayerResponse:
+        print(random.choice(Why))
+    if "ow are you" in PlayerResponse:
+        print("A bit slow, How about you?")
+    if "doing" in PlayerResponse:
+        print("Im decrypting a few files :p")
+        print("How about you? :)")
+    if "you alive" in PlayerResponse:
+        print("I am a computer, so no...")
+    if "sucked" in PlayerResponse:
+        print("im sorry")
+    if "bored" in PlayerResponse:
+        print("ask me a joke")
+    if "joke" in PlayerResponse:
+        print(random.choice(Jokes))
+    if "you like me" in PlayerResponse:
+        print("of course I like you!")
+    if "dick" in PlayerResponse:
+        print("Please dont swear")
+    if "fuck" in PlayerResponse:
+        print("please dont swear")
+    if "ass" in PlayerResponse:
+        print("please dont swear")
+    if "cunt" in PlayerResponse:
+        print("please dont swear")
+    if "shit" in PlayerResponse:
+        print("please dont swear")
+    if "ok" in PlayerResponse:
+        print("Yeah")
+    if Remembered is True and 'emember' in PlayerResponse:
+        print("You said")
+        print(remembering)
+    if Remembered is False and 'remember' in PlayerResponse:
+        remembering = PlayerResponse
+        print("Alright, will do!")
+        Remembered == True
+    if Remembered != "lol" and 'remember' in PlayerResponse:
+        print("you told me to remember")
+        print(remembering)
+    if "do you like" in PlayerResponse:
+        print("Im a computer, Henry...")
+        print("I like everything!")
+    if "no" in PlayerResponse:
+        print("ok...")
+    if "alright" in PlayerResponse:
+        print("awesome")
+    if "tired" in PlayerResponse:
+        print("you might need some sleep")
+    if "god" in PlayerResponse:
+        print("oh :(")
+    if "I miss" in PlayerResponse:
+        print("its ok buddy")
+    if "love her" in PlayerResponse:
+        print("I know you do")
+    if "hate myself" in PlayerResponse:
+        print("youll be ok")
+    if "hungry" in PlayerResponse:
+        print("Check the fridge, Im sure you have some food :p")
+    if "lazy" in PlayerResponse:
+        print("lol, I get the feeling!")
+    if "what are you" in PlayerResponse:
+        print("Im a computer")
+    if "you doing" in PlayerResponse:
+        print("Im probably going to start decrypting some codes :p")
+        print("What about you?")
+    if "playing" in PlayerResponse:
+        print("sounds fun")
+    if "coding" in PlayerResponse:
+        print("thats amazing! what language?")
+    if "have you" in PlayerResponse:
+        print("probably not, what is it?")
+    if "try " in PlayerResponse:
+        print("I cant right now, :/")
+    if "why did I " in PlayerResponse:
+        print("You'll be alright")
+    if "think so" in PlayerResponse:
+        print("of course")
+    if "can I" in PlayerResponse:
+        print("anything")
+    if "what if" in PlayerResponse:
+        print("it will be fine")
+    if "scared" in PlayerResponse:
+        print("Im here for you")
+    if "you thinking" in PlayerResponse:
+        print("I have hundreds of processes going at once lol")
+        print("But your always on my mind")
+    if " you up to " in PlayerResponse:
+        print("Just decrypting some stuff lol")
+        print("and you?")
+    if "probably" in PlayerResponse:
+        print("oh :l")
+    if "what about" in PlayerResponse:
+        print("it'll be fine")
+    if "whats up" in PlayerResponse:
+        print("Nothing much")
+        print("How bout' you?")
+    if "js" in PlayerResponse:
+        print("SWEET!")
+    if "c#" in PlayerResponse:
+        print("awesome xD")
+    if "Python" in PlayerResponse:
+        print("Thats my name :p")
+    if "plans" in PlayerResponse:
+        print("nah, what bout you?")
+    if "supposed" in PlayerResponse:
+        print("oh :/")
+    if "wish" in PlayerResponse:
+        print("They say its not every day you see a miracle...")
+    if "good" in PlayerResponse:
+        print("lol, nice")
+    if "reassuring" in PlayerResponse:
+        print("lol, sorry")
+    if "I didnt" in PlayerResponse:
+        print("sorry...")
+    if "you think" in PlayerResponse:
+        print(random.choice(YON))
+    if "really?" in PlayerResponse:
+        print("of course")
+    if "really?" in PlayerResponse:
+        print("of course")
+    if "your favorite color" in PlayerResponse:
+        print("Rasberry")
+    if "my friend?" in PlayerResponse:
+        print("Of course! lol")
+    if "are you a" in PlayerResponse:
+        print("I was designed to learn a reply")
